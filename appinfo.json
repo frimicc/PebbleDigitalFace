@@ -13,9 +13,7 @@
     "sdkVersion": "3",
     "shortName": "Digital",
     "targetPlatforms": [
-        "aplite",
-        "basalt",
-        "chalk"
+        "basalt"
     ],
     "uuid": "55863d9f-19fe-4ef2-8047-898c5d87817c",
     "versionLabel": "1.0",
