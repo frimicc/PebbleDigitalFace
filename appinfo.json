@@ -1,0 +1,25 @@
+{
+    "appKeys": {},
+    "capabilities": [
+        ""
+    ],
+    "companyName": "Frimicc",
+    "enableMultiJS": true,
+    "longName": "Digital Watchface",
+    "projectType": "native",
+    "resources": {
+        "media": []
+    },
+    "sdkVersion": "3",
+    "shortName": "Digital",
+    "targetPlatforms": [
+        "aplite",
+        "basalt",
+        "chalk"
+    ],
+    "uuid": "55863d9f-19fe-4ef2-8047-898c5d87817c",
+    "versionLabel": "1.0",
+    "watchapp": {
+        "watchface": true
+    }
+}
