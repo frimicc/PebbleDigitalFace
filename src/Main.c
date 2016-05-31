@@ -21,6 +21,10 @@ static void main_window_unload(Window *window) {
   text_layer_destroy(s_time_layer);
 }
 
+static void tick_handler(struct tm *tick_time, TimeUnits units_changed) {
+
+}
+
 static void init() {
   s_main_window = window_create();
 
@@ -29,6 +33,8 @@ static void init() {
     .unload = main_window_unload
   });
   
+  tick_timer_service_subscribe(MINUTE_UNIT, tick_handler);
+
   window_stack_push(s_main_window, true);
 }
 
